@@ -1,0 +1,4 @@
+void FixedUpdate()
+{
+_body.MovePosition(_body.position + _inputs * Speed * Time.fixedDeltaTime);
+}
